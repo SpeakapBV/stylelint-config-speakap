@@ -2,6 +2,14 @@
   "name": "stylelint-config-speakap",
   "version": "0.1.0",
   "description": "Default stylelint config used by Speakap.",
+  "main": "css/index.js",
   "license": "UNLICENSED",
-  "private": true
+  "private": true,
+  "peerDependencies": {
+    "stylelint": "^9.9.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^2.0.0"
+  }
 }
