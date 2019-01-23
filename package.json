@@ -1,0 +1,7 @@
+{
+  "name": "stylelint-config-speakap",
+  "version": "0.1.0",
+  "description": "Default stylelint config used by Speakap.",
+  "license": "UNLICENSED",
+  "private": true
+}
