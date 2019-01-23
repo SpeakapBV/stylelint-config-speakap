@@ -32,7 +32,10 @@ module.exports = {
         "selector-attribute-quotes": "always",
         "selector-class-pattern": [
             "^[a-z][a-z0-9\\-]*[a-z0-9]$",
-            { resolveNestedSelectors: true }
+            {
+                resolveNestedSelectors: true,
+                "message": "Class name should start with a letter and end with letter or number, it shouldn't contain anything but letters, numbers and `-` character "
+            }
         ],
         "selector-list-comma-newline-after": "always",
         "selector-list-comma-newline-before": "never-multi-line",
