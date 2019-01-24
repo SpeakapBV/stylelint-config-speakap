@@ -34,7 +34,7 @@ module.exports = {
             "^[a-z][a-z0-9\\-]*[a-z0-9]$",
             {
                 resolveNestedSelectors: true,
-                message: "Class name should start with a letter and end with letter or number, it shouldn't contain anything but letters, numbers and `-` character "
+                message: "Class names should be lowercase, start with a letter and end with letter or number, it shouldn't contain anything but letters, numbers and `-` character "
             }
         ],
         "selector-list-comma-newline-after": "always",
