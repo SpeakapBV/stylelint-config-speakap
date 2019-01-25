@@ -50,7 +50,10 @@ module.exports = {
         "selector-max-specificity": null,
         "selector-max-type": 2,
         "selector-max-universal": 1,
-        "selector-no-qualifying-type": true,
+        "selector-no-qualifying-type": [
+            true,
+            { ignore: ["attribute"] }
+        ],
         "selector-no-vendor-prefix": true,
         "selector-pseudo-element-colon-notation": "double",
         "shorthand-property-no-redundant-values": true,
