@@ -14,7 +14,7 @@ module.exports = {
         "declaration-block-semicolon-newline-after": "always",
         "declaration-block-semicolon-newline-before": "never-multi-line",
         "declaration-block-semicolon-space-after": "always-single-line",
-        "declaration-colon-space-after": "always",
+        "declaration-colon-space-after": "always-single-line",
         "declaration-empty-line-before": "never",
         "declaration-no-important": true,
         "font-family-name-quotes": "always-where-recommended",
