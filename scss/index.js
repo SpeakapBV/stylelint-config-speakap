@@ -52,7 +52,6 @@ module.exports = {
                 message: "Placeholder class names should be lowercase, start with a letter, end with letter or number and should only contain letters, numbers and dashes "
             }
         ],
-        "scss/selector-nest-combinators": "always",
         "scss/selector-no-redundant-nesting-selector": true
     }
 };
