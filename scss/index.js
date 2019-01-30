@@ -2,6 +2,7 @@
 
 module.exports = {
     extends: ["../css"],
+    plugins: ["stylelint-scss"],
     rules: {
         "at-rule-no-unknown": null,
         "scss/at-function-named-arguments": "never",
