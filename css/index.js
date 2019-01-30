@@ -27,6 +27,7 @@ module.exports = {
             { ignoreMediaFeatureNames: ["prefers-reduced-motion"] }
         ],
         "media-feature-name-no-vendor-prefix": true,
+        "no-descending-specificity": null,
         "no-duplicate-selectors": true,
         "property-no-vendor-prefix": true,
         "selector-attribute-quotes": "always",
