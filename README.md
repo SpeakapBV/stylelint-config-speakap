@@ -1,17 +1,19 @@
-# stylelint-config-speakap
+# @speakapbv/stylelint-config-speakap
 
 Default stylelint config used by Speakap.
 
 ## Installation
 
 ##### With npm:
+
 ```bash
-npm install stylelint-config-speakap --save-dev
+npm install @speakapbv/stylelint-config-speakap --save-dev
 ```
 
 ##### Or with yarn:
+
 ```bash
-yarn add stylelint-config-speakap --dev
+yarn add @speakapbv/stylelint-config-speakap --dev
 ```
 
 ## Usage
@@ -22,7 +24,7 @@ There are 2 flavours that are supported. Choose which one to extend in your `sty
 
 ```json
 {
-  "extends": "stylelint-config-speakap/css"
+    "extends": "@speakapbv/stylelint-config-speakap/css"
 }
 ```
 
@@ -30,6 +32,6 @@ There are 2 flavours that are supported. Choose which one to extend in your `sty
 
 ```json
 {
-  "extends": "stylelint-config-speakap/scss"
+    "extends": "@speakapbv/stylelint-config-speakap/scss"
 }
 ```

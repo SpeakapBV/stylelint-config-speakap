@@ -1,14 +1,20 @@
 {
-    "name": "stylelint-config-speakap",
-    "version": "0.3.0",
+    "name": "@speakapbv/stylelint-config-speakap",
+    "version": "0.3.1",
     "description": "Default stylelint config used by Speakap.",
     "main": "css/index.js",
     "license": "UNLICENSED",
-    "private": true,
     "files": [
         "css/index.js",
         "scss/index.js"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SpeakapBV/stylelint-config-speakap"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "peerDependencies": {
         "stylelint": "^9.9.0"
     },
